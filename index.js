@@ -1,5 +1,3 @@
-<script language="JavaScript">
-
 var nl = getNewLine()
 
 function getNewLine() {
@@ -15,42 +13,41 @@ function getNewLine() {
 
 }
 
-pagecode = 'page = 1
-while repeat == \'true\':
- print(\'page\')
+page = 1
+ print('page')
  document.onkeydown = checkKey;
 
  function checkKey(e) {
 
   e = e || window.event;
 
-  if (e.keyCode == \'38\') {
+  if (e.keyCode == '38') {
     // up arrow
   }
-  else if (e.keyCode == \'40\') {
+  else if (e.keyCode == '40') {
    // down arrow
   }
-  else if (e.keyCode == \'37\') {
+  else if (e.keyCode == '37') {
    // left arrow
   }
-  else if (e.keyCode == \'39\') {
+  else if (e.keyCode == '39') {
     // right arrow
   }
 
 }
-while page == \'10\':
- stopup = true
-else:
+
+
   stopdown = false
-if e.KeyCode == \'37\':
-  if stopup == \'false\':
+if (e.KeyCode == '37'):
+  if stopup == 'false':
    page = page+1
-if e.KeyCode == \'39\':
-  if stopdown == \'false\':
+if e.KeyCode == '39':
+  if stopdown == 'false':
    page = page+1
 repeat = true
-  '
 
-document.write(pagecode);
+document.write(pagecode)
+print('page')
 
-</script>
+
+
